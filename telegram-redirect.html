@@ -77,7 +77,7 @@
         // Target intent URI to trigger the Android app link using our custom scheme
         // This matches the new intent-filter in AndroidManifest.xml: 
         // scheme="quiz2", host="telegram-login"
-        const intentUri = `intent://telegram-login${queryString}#Intent;scheme=quiz2;package=com.example.quiz2;end;`;
+        const intentUri = `intent://telegram-login${queryString}#Intent;scheme=quiz2;package=com.quantawerse.preppilot;end;`;
         
         // Update the manual redirect button
         document.getElementById('manual-redirect').href = intentUri;
